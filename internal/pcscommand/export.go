@@ -2,9 +2,10 @@ package pcscommand
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
 	"path"
 	"strings"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
 )
 
 // RunExport 执行导出文件和目录

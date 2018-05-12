@@ -3,13 +3,14 @@ package pcscommand
 import (
 	"bytes"
 	"fmt"
+	"image/png"
+	"io/ioutil"
+	"path/filepath"
+
 	"github.com/iikira/Baidu-Login"
 	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
 	"github.com/iikira/BaiduPCS-Go/pcsliner"
 	"github.com/iikira/BaiduPCS-Go/requester"
-	"image/png"
-	"io/ioutil"
-	"path/filepath"
 )
 
 // handleVerifyImg 处理验证码, 下载到本地

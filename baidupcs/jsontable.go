@@ -1,10 +1,12 @@
 package baidupcs
 
 import (
-	"github.com/iikira/BaiduPCS-Go/pcstable"
-	"github.com/json-iterator/go"
 	"strconv"
 	"strings"
+
+	"github.com/json-iterator/go"
+
+	"github.com/iikira/BaiduPCS-Go/pcstable"
 )
 
 // PathJSON 网盘路径

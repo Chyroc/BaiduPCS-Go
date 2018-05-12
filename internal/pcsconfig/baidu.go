@@ -3,13 +3,15 @@ package pcsconfig
 import (
 	"errors"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/pcstable"
-	"github.com/iikira/baidu-tools/tieba"
-	"github.com/olekukonko/tablewriter"
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/olekukonko/tablewriter"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
+	"github.com/iikira/BaiduPCS-Go/pcstable"
+	"github.com/iikira/baidu-tools/tieba"
 )
 
 var (

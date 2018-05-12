@@ -2,11 +2,12 @@ package requester
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcstable"
 	"net"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/pcstable"
 )
 
 var (

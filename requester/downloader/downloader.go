@@ -5,11 +5,12 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/iikira/BaiduPCS-Go/requester"
 	"io"
 	"sync"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
+	"github.com/iikira/BaiduPCS-Go/requester"
 )
 
 //Event 下载任务运行时事件

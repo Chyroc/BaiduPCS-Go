@@ -2,15 +2,17 @@
 package pcsconfig
 
 import (
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/json-iterator/go"
 	"os"
 	"path/filepath"
 	"runtime"
 	"sync"
 	"unsafe"
+
+	"github.com/json-iterator/go"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
+	"github.com/iikira/BaiduPCS-Go/pcsutil"
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
 )
 
 const (

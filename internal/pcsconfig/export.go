@@ -2,11 +2,13 @@ package pcsconfig
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/pcstable"
-	"github.com/olekukonko/tablewriter"
 	"os"
 	"strconv"
+
+	"github.com/olekukonko/tablewriter"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
+	"github.com/iikira/BaiduPCS-Go/pcstable"
 )
 
 // pcsConfigJSONExport 导出配置详情, 用于生成json数据

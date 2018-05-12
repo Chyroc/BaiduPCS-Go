@@ -3,8 +3,9 @@ package pcsweb
 
 import (
 	"fmt"
-	"github.com/GeertJohan/go.rice"
 	"net/http"
+
+	"github.com/GeertJohan/go.rice"
 )
 
 var (

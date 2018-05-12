@@ -2,9 +2,11 @@ package pcsutil
 
 import (
 	"fmt"
-	"github.com/fatih/color"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/pcstime"
 	"log"
+
+	"github.com/fatih/color"
+
+	"github.com/iikira/BaiduPCS-Go/pcsutil/pcstime"
 )
 
 var (

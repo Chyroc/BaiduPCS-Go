@@ -2,10 +2,11 @@
 package uploader
 
 import (
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
 	"net/http"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/requester"
+	"github.com/iikira/BaiduPCS-Go/requester/rio"
 )
 
 //CheckFunc 上传完成的检测函数

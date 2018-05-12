@@ -3,14 +3,16 @@ package baidupcs
 
 import (
 	"errors"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/iikira/baidu-tools/pan"
-	"github.com/json-iterator/go"
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"
 	"strconv"
+
+	"github.com/json-iterator/go"
+
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
+	"github.com/iikira/BaiduPCS-Go/requester"
+	"github.com/iikira/baidu-tools/pan"
 )
 
 const (

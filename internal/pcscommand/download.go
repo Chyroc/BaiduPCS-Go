@@ -3,17 +3,18 @@ package pcscommand
 import (
 	"container/list"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/iikira/BaiduPCS-Go/requester/downloader"
 	"io"
 	"net/http/cookiejar"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
+	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
+	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
+	"github.com/iikira/BaiduPCS-Go/requester"
+	"github.com/iikira/BaiduPCS-Go/requester/downloader"
 )
 
 const (

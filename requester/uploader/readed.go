@@ -1,8 +1,9 @@
 package uploader
 
 import (
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
 	"sync/atomic"
+
+	"github.com/iikira/BaiduPCS-Go/requester/rio"
 )
 
 // Readed64 增加获取已读取数据量, 用于统计速度

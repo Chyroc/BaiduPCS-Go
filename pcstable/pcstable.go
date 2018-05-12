@@ -2,8 +2,9 @@
 package pcstable
 
 import (
-	"github.com/olekukonko/tablewriter"
 	"io"
+
+	"github.com/olekukonko/tablewriter"
 )
 
 // PCSTable 封装 tablewriter.Table

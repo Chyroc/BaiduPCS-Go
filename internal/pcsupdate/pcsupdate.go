@@ -4,18 +4,19 @@ import (
 	"archive/zip"
 	"bytes"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcsliner"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
-	"github.com/iikira/BaiduPCS-Go/requester/downloader"
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
-	"github.com/iikira/baidu-tools/pan"
 	"path/filepath"
 	"regexp"
 	"runtime"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/pcsliner"
+	"github.com/iikira/BaiduPCS-Go/pcsutil"
+	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
+	"github.com/iikira/BaiduPCS-Go/requester/downloader"
+	"github.com/iikira/BaiduPCS-Go/requester/rio"
+	"github.com/iikira/baidu-tools/pan"
 )
 
 const (

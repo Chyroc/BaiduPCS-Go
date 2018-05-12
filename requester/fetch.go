@@ -3,12 +3,13 @@ package requester
 import (
 	"bytes"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/iikira/BaiduPCS-Go/requester/rio"
 )
 
 // HTTPGet 简单实现 http 访问 GET 请求

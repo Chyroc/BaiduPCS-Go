@@ -2,11 +2,12 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/iikira/BaiduPCS-Go/requester"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
+	"github.com/iikira/BaiduPCS-Go/requester"
 )
 
 var (

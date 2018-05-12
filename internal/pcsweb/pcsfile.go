@@ -1,10 +1,11 @@
 package pcsweb
 
 import (
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
 	"io"
 	"net/http"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
+	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
 )
 
 func fileList(w http.ResponseWriter, r *http.Request) {

@@ -4,15 +4,16 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/iikira/BaiduPCS-Go/requester/downloader/cachepool"
-	"github.com/iikira/BaiduPCS-Go/requester/rio/speeds"
 	"io"
 	"net/http"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
+	"github.com/iikira/BaiduPCS-Go/requester"
+	"github.com/iikira/BaiduPCS-Go/requester/downloader/cachepool"
+	"github.com/iikira/BaiduPCS-Go/requester/rio/speeds"
 )
 
 //Worker 工作单元

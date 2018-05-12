@@ -1,12 +1,14 @@
 package pcsutil
 
 import (
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/kardianos/osext"
 	"os"
 	"path/filepath"
 	"runtime"
 	"strings"
+
+	"github.com/kardianos/osext"
+
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
 )
 
 // IsIPhoneOS 是否为苹果移动设备

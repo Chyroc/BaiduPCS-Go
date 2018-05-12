@@ -3,8 +3,9 @@
 package pcsupdate
 
 import (
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
 	"syscall"
+
+	"github.com/iikira/BaiduPCS-Go/pcsutil"
 )
 
 func checkWritable() bool {

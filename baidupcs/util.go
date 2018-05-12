@@ -2,9 +2,10 @@ package baidupcs
 
 import (
 	"errors"
-	"github.com/json-iterator/go"
 	"io"
 	"path"
+
+	"github.com/json-iterator/go"
 )
 
 // Isdir 检查路径在网盘中是否为目录

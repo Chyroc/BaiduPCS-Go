@@ -2,9 +2,10 @@ package pcscommand
 
 import (
 	"fmt"
+	"path"
+
 	"github.com/iikira/BaiduPCS-Go/baidupcs"
 	"github.com/iikira/BaiduPCS-Go/pcspath"
-	"path"
 )
 
 // RunCopy 执行 批量拷贝文件/目录

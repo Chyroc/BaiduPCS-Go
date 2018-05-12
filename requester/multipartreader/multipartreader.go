@@ -5,12 +5,13 @@ package multipartreader
 import (
 	"errors"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
 	"io"
 	"mime/multipart"
 	"strings"
 	"sync"
 	"sync/atomic"
+
+	"github.com/iikira/BaiduPCS-Go/requester/rio"
 )
 
 // MultipartReader MIME multipart format

@@ -2,9 +2,10 @@ package baidupcs
 
 import (
 	"fmt"
-	"github.com/json-iterator/go"
 	"net/http"
 	"net/http/cookiejar"
+
+	"github.com/json-iterator/go"
 )
 
 // UploadFunc 上传文件处理函数

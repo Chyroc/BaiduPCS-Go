@@ -2,10 +2,11 @@ package pcscommand
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcspath"
-	"github.com/iikira/BaiduPCS-Go/pcstable"
 	"os"
 	"strconv"
+
+	"github.com/iikira/BaiduPCS-Go/pcspath"
+	"github.com/iikira/BaiduPCS-Go/pcstable"
 )
 
 // RunRemove 执行 批量删除文件/目录

@@ -2,10 +2,11 @@ package pcsutil
 
 import (
 	"fmt"
-	"github.com/iikira/Baidu-Login/bdcrypto"
 	"io"
 	"os"
 	"strings"
+
+	"github.com/iikira/Baidu-Login/bdcrypto"
 )
 
 // CryptoMethodSupport 检测是否支持加密解密方法

@@ -3,6 +3,19 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
+	"os"
+	"os/exec"
+	"path"
+	"path/filepath"
+	"runtime"
+	"sort"
+	"strconv"
+	"strings"
+	"time"
+
+	"github.com/olekukonko/tablewriter"
+	"github.com/urfave/cli"
+
 	"github.com/iikira/BaiduPCS-Go/baidupcs"
 	"github.com/iikira/BaiduPCS-Go/internal/pcscommand"
 	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
@@ -20,17 +33,6 @@ import (
 	"github.com/iikira/BaiduPCS-Go/pcsverbose"
 	"github.com/iikira/BaiduPCS-Go/requester"
 	"github.com/iikira/args"
-	"github.com/olekukonko/tablewriter"
-	"github.com/urfave/cli"
-	"os"
-	"os/exec"
-	"path"
-	"path/filepath"
-	"runtime"
-	"sort"
-	"strconv"
-	"strings"
-	"time"
 )
 
 var (
@@ -1562,5 +1564,3 @@ func main() {
 
 	app.Run(os.Args)
 }
-
-// �

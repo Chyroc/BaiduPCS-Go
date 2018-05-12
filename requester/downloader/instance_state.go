@@ -2,10 +2,12 @@ package downloader
 
 import (
 	"errors"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/json-iterator/go"
 	"os"
 	"sync"
+
+	"github.com/json-iterator/go"
+
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
 )
 
 //InstanceState 状态, 断点续传信息

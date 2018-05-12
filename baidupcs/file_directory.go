@@ -2,15 +2,17 @@ package baidupcs
 
 import (
 	"fmt"
+	"strconv"
+	"strings"
+	"unsafe"
+
+	"github.com/json-iterator/go"
+	"github.com/olekukonko/tablewriter"
+
 	"github.com/iikira/BaiduPCS-Go/pcstable"
 	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
 	"github.com/iikira/BaiduPCS-Go/pcsutil/pcstime"
 	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/json-iterator/go"
-	"github.com/olekukonko/tablewriter"
-	"strconv"
-	"strings"
-	"unsafe"
 )
 
 // OrderBy 排序字段

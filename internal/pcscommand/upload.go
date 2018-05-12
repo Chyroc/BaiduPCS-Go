@@ -6,14 +6,6 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/pcscache"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/iikira/BaiduPCS-Go/requester/multipartreader"
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
-	"github.com/iikira/BaiduPCS-Go/requester/uploader"
 	"hash"
 	"hash/crc32"
 	"io"
@@ -24,6 +16,15 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
+	"github.com/iikira/BaiduPCS-Go/pcscache"
+	"github.com/iikira/BaiduPCS-Go/pcsutil"
+	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
+	"github.com/iikira/BaiduPCS-Go/requester"
+	"github.com/iikira/BaiduPCS-Go/requester/multipartreader"
+	"github.com/iikira/BaiduPCS-Go/requester/rio"
+	"github.com/iikira/BaiduPCS-Go/requester/uploader"
 )
 
 const requiredSliceLen = 256 * converter.KB // 256 KB

@@ -2,8 +2,9 @@ package pcscommand
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
 	"strings"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
 )
 
 const (

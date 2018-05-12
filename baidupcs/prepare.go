@@ -3,14 +3,16 @@ package baidupcs
 import (
 	"bytes"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/requester/multipartreader"
-	"github.com/json-iterator/go"
 	"io"
 	"net/http"
 	"net/http/cookiejar"
 	"strconv"
 	"strings"
 	"unsafe"
+
+	"github.com/json-iterator/go"
+
+	"github.com/iikira/BaiduPCS-Go/requester/multipartreader"
 )
 
 func handleRespClose(resp *http.Response) error {

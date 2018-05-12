@@ -2,14 +2,15 @@ package pcscommand
 
 import (
 	"fmt"
+	fpath "path"
+	"regexp"
+	"strings"
+
 	"github.com/iikira/BaiduPCS-Go/baidupcs"
 	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
 	"github.com/iikira/BaiduPCS-Go/pcspath"
 	"github.com/iikira/BaiduPCS-Go/pcsutil/waitgroup"
 	"github.com/iikira/BaiduPCS-Go/requester"
-	fpath "path"
-	"regexp"
-	"strings"
 )
 
 var (

@@ -4,13 +4,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcstable"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
 	"strconv"
 	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/pcstable"
+	"github.com/iikira/BaiduPCS-Go/pcsverbose"
 )
 
 var (

@@ -2,8 +2,9 @@
 package getip
 
 import (
-	"github.com/iikira/BaiduPCS-Go/requester"
 	"unsafe"
+
+	"github.com/iikira/BaiduPCS-Go/requester"
 )
 
 //IPInfo 获取IP地址和IP位置

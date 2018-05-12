@@ -2,8 +2,9 @@
 package pcscache
 
 import (
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
 	"time"
+
+	"github.com/iikira/BaiduPCS-Go/baidupcs"
 )
 
 type dirCache struct {
